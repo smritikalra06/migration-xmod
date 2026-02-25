@@ -1,0 +1,93 @@
+{
+  "templates": [
+    {
+      "name": "community-of-science",
+      "urls": [
+        "https://www.abbvie.com/science/our-people/community-of-science.html"
+      ],
+      "description": "Science community page showcasing AbbVie's community of scientists and researchers",
+      "blocks": [
+        {
+          "name": "hero-science",
+          "instances": [
+            "#container-8c952d1cb2"
+          ]
+        },
+        {
+          "name": "cards-stats",
+          "instances": [
+            ".dashboardcards"
+          ]
+        },
+        {
+          "name": "columns-showcase",
+          "instances": [
+            "#container-ddcdf990db .grid:nth-of-type(1)",
+            "#container-ddcdf990db .grid:nth-of-type(2)",
+            "#container-ddcdf990db .grid:nth-of-type(3)",
+            "#container-ddcdf990db .grid:nth-of-type(4)",
+            "#container-ddcdf990db .grid:nth-of-type(5)",
+            ".grid.aem-GridColumn",
+            "#container-789c79eb77 .grid"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero",
+          "selector": "#container-8c952d1cb2",
+          "style": null,
+          "blocks": [
+            "hero-science"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "Statistics Dashboard",
+          "selector": "#container-02b51d5df6",
+          "style": "grey",
+          "blocks": [
+            "cards-stats"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-3",
+          "name": "Content Showcases",
+          "selector": "#container-ddcdf990db",
+          "style": "lavender",
+          "blocks": [
+            "columns-showcase"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-4",
+          "name": "Programs Overview",
+          "selector": ".teaser.aem-GridColumn",
+          "style": null,
+          "blocks": [
+            "columns-showcase"
+          ],
+          "defaultContent": [
+            ".cmp-teaser__pretitle",
+            ".cmp-teaser__title",
+            ".cmp-teaser__description"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Join CTA",
+          "selector": "#container-789c79eb77",
+          "style": "lavender",
+          "blocks": [
+            "columns-showcase"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

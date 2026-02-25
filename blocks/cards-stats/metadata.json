@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-stats",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-02-25T10:12:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.abbvie.com/science/our-people/community-of-science.html",
+    "originPage": "Community of Science landing page",
+    "blockPosition": "middle"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "grey",
+    "density": "spacious",
+    "purpose": "statistics-dashboard",
+    "imagePattern": "noimg"
+  },
+  "contentPattern": {
+    "structure": "eyebrow + large-number + description per card",
+    "buttonCount": 0,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "statistics/metrics display pages",
+      "dashboard-style data presentation",
+      "key facts and figures sections"
+    ],
+    "notSuitableFor": [
+      "image-heavy card grids",
+      "product listing cards",
+      "team member cards with photos"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/science/our-people/community-of-science"],
+    "reuseCount": 1,
+    "lastUsed": "2026-02-25T10:12:00.000Z"
+  }
+}

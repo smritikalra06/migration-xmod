@@ -1,0 +1,27 @@
+{
+  "status": "success",
+  "url": "https://www.abbvie.com/science/our-people/community-of-science.html",
+  "path": "science/our-people/community-of-science",
+  "timestamp": "2026-02-25T10:54:31.082Z",
+  "title": "Community of Science | AbbVie",
+  "template": "community-of-science",
+  "blocks": [
+    "hero-science",
+    "cards-stats",
+    "cards-stats",
+    "cards-stats",
+    "cards-stats",
+    "cards-stats",
+    "cards-stats",
+    "cards-stats",
+    "cards-stats",
+    "cards-stats",
+    "columns-showcase",
+    "columns-showcase",
+    "columns-showcase",
+    "columns-showcase",
+    "columns-showcase",
+    "columns-showcase",
+    "columns-showcase"
+  ]
+}
