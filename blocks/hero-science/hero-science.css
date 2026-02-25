@@ -1,3 +1,9 @@
+/* Hero Science - full-width hero with background image overlay */
+
+.hero-science-container {
+  margin: 0;
+}
+
 .hero-science-container .hero-science-wrapper {
   max-width: unset;
   padding: 0;
@@ -5,33 +11,73 @@
 
 .hero-science {
   position: relative;
-  padding: 40px 24px;
-  min-height: 300px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero-science > div:first-child {
+  position: absolute;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
 }
 
 .hero-science h1 {
-  max-width: 1200px;
-  margin-left: auto;
-  margin-right: auto;
-  color: var(--background-color);
+  color: #fff;
+  font-size: 40px;
+  font-weight: 800;
+  line-height: 44px;
+  margin: 0 0 16px;
+  max-width: 600px;
 }
 
-.hero-science picture {
-  position: absolute;
-  z-index: -1;
-  inset: 0;
-  object-fit: cover;
-  box-sizing: border-box;
+.hero-science p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 22px;
+  max-width: 550px;
+  margin: 0;
 }
 
-.hero-science img {
+.hero-science > div:first-child p {
+  margin: 0;
+  height: 100%;
+}
+
+.hero-science > div:first-child picture {
+  display: block;
+  height: 100%;
+}
+
+.hero-science > div:first-child img {
   object-fit: cover;
   width: 100%;
   height: 100%;
+  display: block;
+}
+
+.hero-science > div:last-child {
+  position: relative;
+  z-index: 1;
+  max-width: var(--content-max-width);
+  margin: 0 auto;
+  padding: 80px 20px 60px;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 @media (width >= 900px) {
   .hero-science {
-    padding: 40px 32px;
+    min-height: 480px;
+  }
+
+  .hero-science > div:last-child {
+    padding: 100px 70px 80px;
+  }
+
+  .hero-science h1 {
+    font-size: 48px;
+    line-height: 52px;
   }
 }
